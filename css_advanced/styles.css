@@ -1,57 +1,84 @@
-n: 0;
-  padding: 0;
-    box-sizing: border-box;
-    }
+/* styles.css */
 
-    body {
-	      font-family: sans-serif;
-	        color: #333;
-	}
+/* Reusable Centering Class */
+.text-center {
+	  text-align: center;
+  }
 
-	/* Header styling */
-	.header {
-		  background-color: #0a0a23;  /* Dark blue header */
-		    padding: 20px;
-		      display: flex;
-		        justify-content: space-between;
-			  align-items: center;
-		  }
+  body {
+	    margin: 0;
+	      font-family: 'Source Sans Pro', sans-serif;
+	        background-color: #ffffff;
+		  color: #333;
+	  }
 
-		  .logo {
-			    width: 120px;
-		    }
-
-		    .nav a {
+	  header {
+		    display: flex;
+		      justify-content: space-between;
+		        align-items: center;
+			  background-color: #0a0a23;
+			    padding: 10px 20px;
 			      color: #fff;
-			        text-decoration: none;
-				  margin-left: 15px;
-				    font-size: 16px;
-			    }
+		      }
 
-			    /* Banner styling */
-			    .banner {
-				      background-color: #333;  /* You will replace this with a real image later */
-				        color: #fff;
-					  text-align: center;
-					    padding: 100px 20px;
-				    }
+		      .logo {
+			        width: 150px;
+			}
 
-				    .banner h1 {
-					      font-size: 40px;
-					        margin-bottom: 20px;
-					}
+			nav ul {
+				  list-style: none;
+				    display: flex;
+				      gap: 15px;
+				        margin: 0;
+					  padding: 0;
+				  }
 
-					.banner p {
-						  font-size: 18px;
-						    margin-bottom: 20px;
-					    }
+				  nav ul li a {
+					    color: #fff;
+					      text-decoration: none;
+				      }
 
-					    .banner button {
-						      padding: 10px 25px;
-						        background-color: #ff6b6b;
-							  color: #fff;
-							    border: none;
-							      border-radius: 5px;
-							        cursor: pointer;
-							}
+				      .banner {
+					        background-color: #1e1e2f;
+						  color: white;
+						    text-align: center;
+						      padding: 100px 20px;
+					      }
+
+					      .banner h1 {
+						        font-size: 3rem;
+							  margin-bottom: 10px;
+						  }
+
+						  .banner p {
+							    font-size: 1.2rem;
+						    }
+
+						    .quote-section {
+							      background-color: #f9f9f9;
+							        padding: 60px 20px;
+								  text-align: center;
+								    font-style: italic;
+							    }
+
+							    .quote-section blockquote {
+								      font-size: 1.6rem;
+								        color: #333;
+									  max-width: 800px;
+									    margin: 0 auto;
+								    }
+
+								    .quote-section footer {
+									      margin-top: 15px;
+									        font-size: 1rem;
+										  color: #666;
+									  }
+
+									  footer {
+										    background-color: #0a0a23;
+										      color: #fff;
+										        text-align: center;
+											  padding: 15px 10px;
+											    font-size: 0.9rem;
+										    }
 
